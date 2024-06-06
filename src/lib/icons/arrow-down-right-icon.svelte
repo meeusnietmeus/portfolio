@@ -1,0 +1,9 @@
+<script lang="ts">
+    import type { IconProps } from "./type";
+
+    let { class: classname }: IconProps = $props();
+</script>
+ 
+<svg class={classname} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7 7L17 17M17 17V7M17 17H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
