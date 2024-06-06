@@ -8,6 +8,9 @@ export default {
         'primary-muted': '#97897B',
         'background': '#F0E6DC',
         'accent': '#C83C3B'
+      },
+      spacing: {
+        'reading': '45em'
       }
     },
   },

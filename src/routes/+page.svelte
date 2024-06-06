@@ -26,7 +26,7 @@
                     class="flex gap-2 items-end hover:text-background transition-colors"
                 >
                     <p class="font-bold text-4xl">
-                        {translator.get("about-me")}
+                        {translator.get("navigation.about-me")}
                     </p>
                     <ArrowDownRightIcon class="w-8" />
                 </a>
@@ -35,7 +35,7 @@
                     class="flex gap-2 items-end hover:text-background transition-colors"
                 >
                     <p class="font-bold text-4xl">
-                        {translator.get("projects")}
+                        {translator.get("navigation.projects")}
                     </p>
                     <ArrowDownRightIcon class="w-8" />
                 </a>
@@ -44,4 +44,20 @@
         </div>
     </div>
 </div>
-<p>{translator.get("welcome")}</p>
+
+<section id="about-me" class="px-32 py-10">
+    <h2 class="text-accent text-5xl font-black">
+        {translator.get("pages.home.introduction.title")}
+    </h2>
+
+    <div class="w-reading text-justify">
+        <p class="mt-3">{translator.get("pages.home.introduction.intro")}</p>
+    </div>
+</section>
+
+<section id="projects" class="px-32 py-10">
+    <h2 class="text-accent text-5xl font-black">
+        {translator.get("pages.home.projects.title")}
+    </h2>
+    <p class="mt-3">{translator.get("pages.home.projects.subtitle")}</p>
+</section>

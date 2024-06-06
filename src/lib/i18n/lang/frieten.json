@@ -1,5 +1,18 @@
 {
-    "welcome": "hallo",
-    "about-me": "Over mij",
-    "projects": "Projecten"
+    "navigation": {
+        "about-me": "Over mij",
+        "projects": "Projecten"
+    },
+    "pages": {
+        "home": {
+            "introduction": {
+                "title": "Who am i?",
+                "intro": "I'm a 20 year old Belgian who's eager to learn. I thrive when faced with difficult problems. I like working in team based projects, but know how to"
+            },
+            "projects": {
+                "title": "I don't like \"knowledge level graphs\"",
+                "subtitle": "You can't ever know the full extent of a skill."
+            }
+        }
+    }
 }

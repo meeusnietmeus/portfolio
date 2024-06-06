@@ -1,7 +1,8 @@
+import type { JSONObject, JSONValue } from "$lib/global-types";
 import en from "./lang/freedom_of_speech.json"
 import nl from "./lang/frieten.json"
 
-let translations: Record<string, string> | null = null;
+let translations: JSONObject | null = null;
 
 export function createTranslator(language: string) {
     if (!translations) {
@@ -11,15 +12,33 @@ export function createTranslator(language: string) {
     return {
         get(key: string) {
             if (!translations) {
-                return key;
+                return "no translations set";
             }
 
-            return translations[key] || key;
+            if (!key.includes('.')) {
+                return translations[key] ?? "does not exist";
+            }
+
+            return getNestedKey(key, translations);
         },
         changeLanguage(language: string) {
             setNewTranslations(language);
         }
     }
+}
+
+function getNestedKey(key: string, jsonObject: JSONObject) {
+    if (!jsonObject) {
+        return "no object";
+    }
+
+    const dotIndex = key.indexOf('.')
+    if (dotIndex !== -1) {
+        const nestedObj = jsonObject[key.substring(0, dotIndex)] as JSONObject
+        return getNestedKey(key.substring(dotIndex + 1), nestedObj)
+    }
+
+    return jsonObject[key] ?? "does not exist"
 }
 
 function setNewTranslations(language: string) {
