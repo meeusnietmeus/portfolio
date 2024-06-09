@@ -1,7 +1,9 @@
 {
+    "portfolio": "Portfolio",
     "navigation": {
         "about-me": "About me",
-        "projects": "Projects"
+        "projects": "Projects",
+        "connect": "Connect"
     },
     "pages": {
         "home": {

@@ -10,7 +10,7 @@
     const translator = createTranslator(language);
 </script>
 
-<section id="projects">
+<section id="projects" class="scroll-mt-24">
     <h2 class="text-accent text-5xl font-black">
         {translator.get("pages.home.projects.title")}
     </h2>

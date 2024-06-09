@@ -5,6 +5,7 @@
     import MySkillsSection from "./my-skills-section.svelte";
     import ProjectsSection from "./projects-section.svelte";
     import Footer from "./footer.svelte";
+    import NavBar from "./nav-bar.svelte";
 
     type PageProps = {
         data: LayoutData;

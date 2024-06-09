@@ -10,7 +10,7 @@
     const translator = createTranslator(language);
 </script>
 
-<section id="about-me" class="mt-10">
+<section id="about-me" class="mt-10 scroll-mt-24">
     <h2 class="text-accent text-5xl font-black">
         {translator.get("pages.home.introduction.title")}
     </h2>
@@ -28,7 +28,7 @@
             alt="Seppe Meeus"
             height="424"
             width="170"
-            class="self-center scale-125"
+            class="self-center scale-125 -z-10"
         />
     </div>
 </section>

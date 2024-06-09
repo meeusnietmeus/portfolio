@@ -11,7 +11,7 @@
     const translator = createTranslator(language);
 </script>
 
-<footer class="bg-accent w-full py-5 mt-32">
+<footer id="contact" class="bg-accent w-full pt-5 mt-32 pb-24 md:pb-5">
     <div class="flex justify-center gap-5">
         <a
             href="https://www.linkedin.com/in/seppe-meeus-b40743268/"

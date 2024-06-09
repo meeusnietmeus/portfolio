@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 
-h1, h2, h3 {
-    font-family: 'Bricolage Grotesque', sans-serif;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -14,3 +14,6 @@ body {
     background-color: #F0E6DC;
 }
 
+h1, h2, h3 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
