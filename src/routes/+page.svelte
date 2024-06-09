@@ -4,6 +4,7 @@
     import AboutMeSection from "./about-me-section.svelte";
     import MySkillsSection from "./my-skills-section.svelte";
     import ProjectsSection from "./projects-section.svelte";
+    import Footer from "./footer.svelte";
 
     type PageProps = {
         data: LayoutData;
@@ -19,3 +20,4 @@
     <MySkillsSection {language} />
     <ProjectsSection {language} />
 </div>
+<Footer {language} />
