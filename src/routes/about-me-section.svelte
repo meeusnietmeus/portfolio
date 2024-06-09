@@ -1,5 +1,6 @@
 <script lang="ts">
     import { createTranslator } from "$lib/i18n/i18n";
+    import me from "$lib/images/me.png";
 
     type ComponentProps = {
         language: string;
@@ -14,9 +15,20 @@
         {translator.get("pages.home.introduction.title")}
     </h2>
 
-    <div class="w-reading text-justify flex flex-col gap-6 mt-3">
-        <p>{translator.get("pages.home.introduction.intro")}</p>
-        <p>{translator.get("pages.home.introduction.hardskills")}</p>
-        <p>{translator.get("pages.home.introduction.softskills")}</p>
+    <div class="flex flex-col lg:flex-row gap-20">
+        <div class="max-w-reading text-justify space-y-5 mt-3">
+            <p>{translator.get("pages.home.introduction.intro")}</p>
+            <p>
+                {translator.get("pages.home.introduction.hardskills")}
+            </p>
+            <p>{translator.get("pages.home.introduction.softskills")}</p>
+        </div>
+        <img
+            src={me}
+            alt="Seppe Meeus"
+            height="424"
+            width="170"
+            class="self-center scale-125"
+        />
     </div>
 </section>
