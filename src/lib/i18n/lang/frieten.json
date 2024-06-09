@@ -1,17 +1,44 @@
 {
+    "portfolio": "Portfolio",
     "navigation": {
         "about-me": "Over mij",
-        "projects": "Projecten"
+        "projects": "Projecten",
+        "connect": "Verbinden"
     },
     "pages": {
         "home": {
             "introduction": {
-                "title": "Who am i?",
-                "intro": "I'm a 20 year old Belgian who's eager to learn. I thrive when faced with difficult problems. I like working in team based projects, but know how to"
+                "title": "Wie ben ik?",
+                "intro": "Ik ben een 20-jarige Belg uit Retie die dol is op alles wat met ontwikkeling te maken heeft. Ik probeer mezelf uit te dagen in mijn projecten zodat ik nieuwe dingen kan leren of een nieuwe manier om dingen te doen. Ik consumeer vaak ontwikkelaarscontent om bij te blijven met wat nieuw is en wat er speelt. Als persoon ben ik een aspirant gameontwikkelaar, omdat dat is wat ik graag doe in mijn vrije tijd, als ik genoeg tijd heb. Gameontwikkeling omvat delen van alle ontwikkeling en creatieve dingen, hoewel het *zeer* tijdrovend is. In niet-gaming gerelateerde projecten, die de meeste van mijn projecten zijn, doe ik full stack ontwikkeling.",
+                "technologies": {
+                    "description": "Als full stack ontwikkelaar heb ik met veel talen, frameworks en technologieën gewerkt. De technologieën waar ik momenteel het meest bedreven in ben, staan hieronder vermeld. Ik heb ook wat zeer basishosting gedaan met Azure en heb meerdere CI/CD-pijplijnen opgezet. Voor voorbeelden waar ik deze technologieën gebruik, kun je naar mijn projecten verwijzen.",
+                    "frontend": "Frontend",
+                    "backend": "Backend",
+                    "technologies": "Technologieën",
+                    "learning": "Aan het leren"
+                },
+                "hardskills": "Bij het ontwikkelen ben ik te vaak een perfectionist. Wat ik hiermee bedoel, is dat ik manieren zie waarop iets beter kan worden gedaan en het dan beter maak. Dit kan een probleem worden, aangezien er altijd manieren zullen zijn om iets te verbeteren. Bij het werken met technologieën, en als ik de tijd heb, wil ik weten waar ik eigenlijk mee werk. Ik wil het niet alleen gebruiken, maar het ook begrijpen.",
+                "softskills": "Gedurende schoolprojecten en mijn stage heb ik veel ervaring opgedaan met teamwork. In sommige van die projecten heb ik de \"lead\" rol op me genomen omdat ik weet wat ik doe. Ik werk graag in teamprojecten omdat ik niet alleen technisch uitgedaagd word, maar we nu ook een manier moeten vinden om dingen voor iedereen te laten werken. Hoewel ik graag in teamverband werk, voel ik me het meest productief wanneer ik een tijdje op mezelf kan werken."
+            },
+            "skill-set": {
+                "title": "Mijn vaardigheden"
             },
             "projects": {
-                "title": "I don't like \"knowledge level graphs\"",
-                "subtitle": "You can't ever know the full extent of a skill."
+                "title": "Mijn projecten",
+                "filter_1": "Bekijk enkele van mijn",
+                "filter_2": "projecten.",
+                "internship": {
+                    "title": "Stage",
+                    "introduction": "Een webapplicatie waarmee Elision-medewerkers kunnen strijden in vriendschappelijke competities."
+                },
+                "project-4": {
+                    "title": "Project 4.0",
+                    "introduction": "School groepsproject rond elektrische oplaadwachtrijen."
+                },
+                "angular": {
+                    "title": "Angular uitdaging",
+                    "introduction": "Strijd tegen andere groepen voor de beste reisplanner."
+                }
             }
         }
     }

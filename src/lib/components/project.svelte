@@ -17,7 +17,7 @@
         classname,
     )}
 >
-    <h3 class="text-primary text-3xl group-hover:hidden transition">
+    <h3 class="text-primary text-3xl group-hover:hidden transition text-center">
         {title}
     </h3>
     <p class="text-primary-muted group-hover:hidden max-w-[60%] text-center">

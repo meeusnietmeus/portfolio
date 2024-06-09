@@ -14,10 +14,10 @@
     class="bg-accent h-screen w-screen flex flex-col items-center justify-center gap-6 text-background font-black"
 >
     <div class="flex flex-col gap-4">
-        <h1 class="text-[10rem]/[9rem]">Seppe</h1>
-        <div class="flex gap-16">
+        <h1 class="text-7xl sm:text-[10rem]/[9rem]">Seppe</h1>
+        <div class="flex md:gap-16 flex-col md:flex-row">
             <nav
-                class="flex flex-col justify-between h-full py-3 text-background/65"
+                class="flex flex-col justify-between h-full py-3 text-background/65 order-2 md:order-1"
             >
                 <a
                     href="#about-me"
@@ -38,7 +38,9 @@
                     <ArrowDownRightIcon class="w-8" />
                 </a>
             </nav>
-            <h1 class="text-[10rem]/[9rem]">Meeus</h1>
+            <h1 class="text-7xl sm:text-[10rem]/[9rem] order-1 md:order-2">
+                Meeus
+            </h1>
         </div>
     </div>
 </div>

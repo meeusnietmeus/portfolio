@@ -14,6 +14,6 @@
 </script>
 
 <NavBar {language} />
-<main>
+<main class="overflow-x-hidden">
     {@render children()}
 </main>

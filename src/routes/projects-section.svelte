@@ -10,7 +10,7 @@
     const translator = createTranslator(language);
 </script>
 
-<section id="projects" class="scroll-mt-24">
+<section id="projects" class="scroll-mt-10 md:scroll-mt-24">
     <h2 class="text-accent text-5xl font-black">
         {translator.get("pages.home.projects.title")}
     </h2>
@@ -18,7 +18,9 @@
         <p>{translator.get("pages.home.projects.filter_1")}</p>
         <p>{translator.get("pages.home.projects.filter_2")}</p>
     </div>
-    <div class="grid grid-cols-4 grid-rows-2 w-full h-[70vh] gap-5">
+    <div
+        class="grid grid-cols-1 sm:grid-cols-4 sm:grid-rows-2 w-full h-[70vh] gap-5"
+    >
         <Project
             title={translator.get("pages.home.projects.internship.title")}
             introduction={translator.get(
@@ -31,9 +33,9 @@
             introduction={translator.get(
                 "pages.home.projects.project-4.introduction",
             )}
-            class=""
+            class="col-span-2 xl:col-span-1"
         />
-        <div></div>
+        <div class="hidden xl:block"></div>
         <Project
             title={translator.get("pages.home.projects.angular.title")}
             introduction={translator.get(
