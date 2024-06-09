@@ -22,11 +22,21 @@
                 "title": "My skill set"
             },
             "projects": {
-                "title_1": "I don't like",
-                "title_2": "\"knowledge level graphs\"",
-                "subtitle": "You can't ever know the full extent of a skill.",
-                "filter_1": "Instead, take a look at some of my",
-                "filter_2": "projects."
+                "title": "My projects",
+                "filter_1": "Take a look at some of my",
+                "filter_2": "projects.",
+                "internship": {
+                    "title": "Internship",
+                    "introduction": "A web application with which Elision employees can compete in friendly competition."
+                },
+                "project-4": {
+                    "title": "Project 4.0",
+                    "introduction": "School group project surrounding electric charging queues."
+                },
+                "angular": {
+                    "title": "Angular challenge",
+                    "introduction": "Compete against other groups for the best tripplanner."
+                }
             }
         }
     }
