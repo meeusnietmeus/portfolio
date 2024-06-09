@@ -1,6 +1,7 @@
 {
     "portfolio": "Portfolio",
     "navigation": {
+        "home": "Home",
         "about-me": "Over mij",
         "projects": "Projecten",
         "connect": "Verbinden"

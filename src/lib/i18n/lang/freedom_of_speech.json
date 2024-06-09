@@ -1,6 +1,7 @@
 {
     "portfolio": "Portfolio",
     "navigation": {
+        "home": "Home",
         "about-me": "About me",
         "projects": "Projects",
         "connect": "Connect"

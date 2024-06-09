@@ -11,7 +11,7 @@
     const translator = createTranslator(language);
 </script>
 
-<div class="w-full fixed bottom-4 md:top-2 px-10">
+<div class="w-full fixed bottom-4 md:top-2 px-10 z-50">
     <nav
         class="flex rounded-3xl bg-background py-4 px-8 items-center shadow-xl border border-primary/30 justify-between"
     >
@@ -19,8 +19,8 @@
             <h3 class="text-3xl text-primary mr-12 hidden md:block">
                 {translator.get("portfolio")}
             </h3>
-            <a href="/">Home</a>
-            <a href="/#projects">Projects</a>
+            <a href="/">{translator.get("navigation.home")}</a>
+            <a href="/#projects">{translator.get("navigation.projects")}</a>
         </div>
         <div class="hidden sm:flex gap-4 items-center">
             <a
@@ -36,10 +36,12 @@
                 type="button"
                 class="text-background py-1 px-4 bg-primary rounded-full"
             >
-                Cirriculum Vitae
+                Curriculum Vitae
             </button>
         </div>
-        <a href="/#contact" class="sm:hidden">Contact</a>
+        <a href="/#contact" class="sm:hidden"
+            >{translator.get("navigation.connect")}</a
+        >
     </nav>
 </div>
 

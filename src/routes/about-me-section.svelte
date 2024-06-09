@@ -21,14 +21,16 @@
             <p>
                 {translator.get("pages.home.introduction.hardskills")}
             </p>
-            <p>{translator.get("pages.home.introduction.softskills")}</p>
+            <p>
+                {translator.get("pages.home.introduction.softskills")}
+            </p>
         </div>
         <img
             src={me}
             alt="Seppe Meeus"
             height="424"
             width="170"
-            class="self-center scale-125 -z-10"
+            class="self-center scale-125"
         />
     </div>
 </section>
