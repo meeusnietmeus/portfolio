@@ -16,7 +16,7 @@ export function createTranslator(language: string) {
             }
 
             if (!key.includes('.')) {
-                return translations[key] ?? "does not exist";
+                return translations[key] as string ?? "does not exist";
             }
 
             return getNestedKey(key, translations);
@@ -38,7 +38,7 @@ function getNestedKey(key: string, jsonObject: JSONObject) {
         return getNestedKey(key.substring(dotIndex + 1), nestedObj)
     }
 
-    return jsonObject[key] ?? "does not exist"
+    return jsonObject[key] as string ?? "does not exist"
 }
 
 function setNewTranslations(language: string) {

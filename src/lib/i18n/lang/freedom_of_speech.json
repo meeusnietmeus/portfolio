@@ -7,11 +7,26 @@
         "home": {
             "introduction": {
                 "title": "Who am i?",
-                "intro": "I'm a 20 year old Belgian who's eager to learn. I thrive when faced with difficult problems. I like working in team based projects, but know how to"
+                "intro": "I'm a 20 year old Belgian from Retie who loves anything related to development. I try to challenge myself in my projects so i can learn new stuff or a new way of doing stuff. I consume developer content often to keep track of what's new and what's out there. As a person i am an aspiring game developer, as that's what i like to do in my free time, given enough time. Game development incorporates parts from all of development and creative stuff, though it is *very* time consuming. In non-gaming related projects, which are most of mine, i do full stack development.",
+                "technologies": {
+                    "description": "As full stack developer i've worked with plenty of languages, frameworks and technologies. The ones i'm currently most proficient in are listed below. I've also done some very basic backend hosting using Azure and have set up multiple CI/CD pipelines. For examples where i use these technologies, you can refer to my projects.",
+                    "frontend": "Frontend",
+                    "backend": "Backend",
+                    "technologies": "Technologies",
+                    "learning": "Learning"
+                },
+                "hardskills": "When developing, I am a perfectionist too often. What i mean by this is that i notice ways something could be done better and then will make it better. This can grow to be a problem since there will always be ways to improve something. When working with technologies, and given the time, I want to know what I am actually working with. I don't just want to use it, but also understand it.",
+                "softskills": "Throughout school projects and my insternship i've conjured up plenty of team work experience. In some of those projects i've taken the \"lead\" role since I know what I'm doing. I like working in team projects since I don't only get technically challenged anymore, but now we also have to figure out a way to make things work for everyone. Even though i do like team work, i feel like I'm most productive when left to my own for a bit."
+            },
+            "skill-set": {
+                "title": "My skill set"
             },
             "projects": {
-                "title": "I don't like \"knowledge level graphs\"",
-                "subtitle": "You can't ever know the full extent of a skill."
+                "title_1": "I don't like",
+                "title_2": "\"knowledge level graphs\"",
+                "subtitle": "You can't ever know the full extent of a skill.",
+                "filter_1": "Instead, take a look at some of my",
+                "filter_2": "projects."
             }
         }
     }

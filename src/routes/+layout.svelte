@@ -9,6 +9,7 @@
     const { children }: LayoutProps = $props();
 </script>
 
-<main class="overflow-x-hidden">
+
+<main>
     {@render children()}
 </main>
