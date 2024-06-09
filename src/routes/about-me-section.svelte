@@ -1,6 +1,6 @@
 <script lang="ts">
     import { createTranslator } from "$lib/i18n/i18n";
-    import me from "$lib/images/me.png";
+    import me from "$lib/images/me.webp";
 
     type ComponentProps = {
         language: string;
