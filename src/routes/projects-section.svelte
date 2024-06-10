@@ -26,14 +26,14 @@
             introduction={translator.get(
                 "pages.home.projects.internship.introduction",
             )}
-            class="row-span-2 col-span-2"
+            class="row-span-2 sm:col-span-2"
         />
         <Project
             title={translator.get("pages.home.projects.project-4.title")}
             introduction={translator.get(
                 "pages.home.projects.project-4.introduction",
             )}
-            class="col-span-2 xl:col-span-1"
+            class="sm:col-span-2 xl:col-span-1"
         />
         <div class="hidden xl:block"></div>
         <Project
@@ -41,7 +41,7 @@
             introduction={translator.get(
                 "pages.home.projects.angular.introduction",
             )}
-            class="col-span-2"
+            class="sm:col-span-2"
         />
     </div>
 </section>

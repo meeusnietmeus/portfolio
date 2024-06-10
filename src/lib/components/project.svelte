@@ -11,19 +11,20 @@
     const { title, introduction, class: classname }: ComponentProps = $props();
 </script>
 
-<div
+<a
+    href="/"
     class={twMerge(
-        "border border-primary-muted/20 flex flex-col rounded-full justify-center items-center group hover:bg-accent transition-colors",
+        "border border-primary-muted/20 flex flex-col rounded-full justify-center items-center group relative hover:bg-accent transition-colors",
         classname,
     )}
 >
-    <h3 class="text-primary text-3xl group-hover:hidden transition text-center">
+    <h3 class="text-primary text-3xl group-hover:opacity-0 text-center">
         {title}
     </h3>
-    <p class="text-primary-muted group-hover:hidden max-w-[60%] text-center">
+    <p class="text-primary-muted group-hover:opacity-0 max-w-[60%] text-center">
         {introduction}
     </p>
     <ArrowDownRightIcon
-        class="hidden group-hover:block -rotate-90 text-background w-40 h-40"
+        class="opacity-0 group-hover:opacity-100 absolute top-1/2 -translate-y-1/2 -rotate-90 text-background w-28 h-28 lg:w-40 lg:h-40"
     />
-</div>
+</a>

@@ -15,8 +15,15 @@
         {translator.get("pages.home.introduction.title")}
     </h2>
 
-    <div class="flex flex-col lg:flex-row gap-20">
-        <div class="max-w-reading text-justify space-y-5 mt-3">
+    <div class="flex flex-col lg:flex-row gap-36 mt-5">
+        <img
+            src={me}
+            alt="Seppe Meeus"
+            height="424"
+            width="170"
+            class="self-center scale-125"
+        />
+        <div class="max-w-reading text-justify space-y-5">
             <p>{translator.get("pages.home.introduction.intro")}</p>
             <p>
                 {translator.get("pages.home.introduction.hardskills")}
@@ -25,12 +32,5 @@
                 {translator.get("pages.home.introduction.softskills")}
             </p>
         </div>
-        <img
-            src={me}
-            alt="Seppe Meeus"
-            height="424"
-            width="170"
-            class="self-center scale-125"
-        />
     </div>
 </section>

@@ -11,13 +11,13 @@
     const translator = createTranslator(language);
 </script>
 
-<div class="w-full fixed bottom-4 md:top-2 px-10 z-50">
+<div class="w-full fixed bottom-4 lg:top-2 px-10 z-50">
     <nav
         class="flex rounded-3xl bg-background py-4 px-8 items-center shadow-xl border border-primary/30 justify-between"
     >
         <div class="flex gap-4 items-center">
-            <h3 class="text-3xl text-primary mr-12 hidden md:block">
-                {translator.get("portfolio")}
+            <h3 class="text-xl lg:text-3xl text-primary mr-12 hidden md:block">
+                Seppe Meeus
             </h3>
             <a href="/">{translator.get("navigation.home")}</a>
             <a href="/#projects">{translator.get("navigation.projects")}</a>
@@ -46,7 +46,7 @@
 </div>
 
 <style>
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         div:first-of-type {
             bottom: unset;
         }
