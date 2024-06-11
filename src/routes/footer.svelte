@@ -1,14 +1,6 @@
 <script lang="ts">
-    import { createTranslator } from "$lib/i18n/i18n";
     import Github from "$lib/icons/socials/github.svelte";
     import Linkedin from "$lib/icons/socials/linkedin.svelte";
-
-    type ComponentProps = {
-        language: string;
-    };
-    const { language }: ComponentProps = $props();
-
-    const translator = createTranslator(language);
 </script>
 
 <footer

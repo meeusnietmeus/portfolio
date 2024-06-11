@@ -3,16 +3,22 @@
     import { twMerge } from "tailwind-merge";
 
     type ComponentProps = {
+        href: string;
         title: string;
         introduction: string;
         class: string;
     };
 
-    const { title, introduction, class: classname }: ComponentProps = $props();
+    const {
+        href,
+        title,
+        introduction,
+        class: classname,
+    }: ComponentProps = $props();
 </script>
 
 <a
-    href="/"
+    {href}
     class={twMerge(
         "border border-primary-muted/20 flex flex-col rounded-full justify-center items-center group relative hover:bg-accent transition-colors",
         classname,

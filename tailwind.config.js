@@ -7,7 +7,13 @@ export default {
         'primary': '#421515',
         'primary-muted': '#97897B',
         'background': '#F0E6DC',
-        'accent': '#C83C3B'
+        'accent': '#C83C3B',
+        'pastel': {
+          orange: '#EF9C66',
+          yellow: '#FCDC94',
+          sage: '#C8CFA0',
+          blue: '#78ABA8'
+        }
       },
       spacing: {
         'reading': '45em'

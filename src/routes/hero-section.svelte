@@ -12,7 +12,7 @@
 </script>
 
 <div
-    class="bg-accent h-screen w-screen flex flex-col items-center justify-center gap-6 text-background font-black relative"
+    class="bg-accent h-screen w-full flex flex-col items-center justify-center gap-6 text-background font-black relative"
 >
     <div class="flex flex-col gap-4">
         <h1 class="text-7xl sm:text-[10rem]/[9rem]">Seppe</h1>

@@ -11,7 +11,7 @@
     const translator = createTranslator(language);
 </script>
 
-<div class="w-full fixed bottom-4 lg:top-2 px-10 z-50">
+<header class="w-full fixed bottom-4 lg:top-2 px-10 z-50">
     <nav
         class="flex rounded-3xl bg-background py-4 px-8 items-center shadow-xl border border-primary/30 justify-between"
     >
@@ -43,11 +43,11 @@
             >{translator.get("navigation.connect")}</a
         >
     </nav>
-</div>
+</header>
 
 <style>
     @media (min-width: 1024px) {
-        div:first-of-type {
+        header {
             bottom: unset;
         }
     }

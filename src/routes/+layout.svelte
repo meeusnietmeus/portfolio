@@ -3,6 +3,7 @@
     import type { Snippet } from "svelte";
     import type { LayoutData } from "./$types";
     import NavBar from "./nav-bar.svelte";
+    import Footer from "./footer.svelte";
 
     type LayoutProps = {
         data: LayoutData;
@@ -14,6 +15,7 @@
 </script>
 
 <NavBar {language} />
-<main class="overflow-x-hidden">
+<main class="">
     {@render children()}
 </main>
+<Footer />
