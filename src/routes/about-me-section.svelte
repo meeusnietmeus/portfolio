@@ -15,13 +15,13 @@
         {translator.get("pages.home.introduction.title")}
     </h2>
 
-    <div class="flex flex-col lg:flex-row gap-36 mt-5">
+    <div class="flex flex-col gap-16 lg:flex-row lg:gap-36 mt-5">
         <img
             src={me}
             alt="Seppe Meeus"
             height="424"
             width="170"
-            class="self-center scale-125"
+            class="self-center scale-125 mt-5 lg:mt-0"
         />
         <div class="max-w-reading text-justify space-y-5">
             <p>{translator.get("pages.home.introduction.intro")}</p>

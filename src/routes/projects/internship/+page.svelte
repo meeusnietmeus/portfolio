@@ -9,38 +9,45 @@
     import createChallengeImage from "$lib/images/projects/internship/create_challenge.webp";
     import profileImage from "$lib/images/projects/internship/profile.webp";
     import ArrowDownRightIcon from "$lib/icons/arrow-down-right-icon.svelte";
+    import type { LayoutData } from "../../$types";
+    import { createTranslator } from "$lib/i18n/i18n";
 
-    // type ComponentProps = {
+    type ComponentProps = {
+        data: LayoutData;
+    };
 
-    // }
+    const { data }: ComponentProps = $props();
+
+    const translator = createTranslator(data.language);
 </script>
 
 <div
     class="container flex flex-col lg:flex-row lg:mt-36 gap-16 mx-auto px-5 mt-10"
 >
-    <div class="min-w-96 flex flex-col justify-between">
+    <div class="max-w-96 flex flex-col justify-between">
         <div class="space-y-3">
-            <h2 class="text-accent text-5xl font-black">Internship</h2>
+            <h2 class="text-accent text-5xl font-black">
+                {translator.get("pages.internship.title")}
+            </h2>
             <div class="flex gap-4">
                 <Pill>
                     <UsersIcon class="w-4" />
-                    <p>team (2)</p>
+                    <p>{translator.get("pages.internship.group-members")}</p>
                 </Pill>
                 <Pill>
                     <CalendarIcon class="w-4" />
-                    <p>Jan 2024 - May 2024</p>
+                    <p>{translator.get("pages.internship.date")}</p>
                 </Pill>
             </div>
-            <p class="text-justify">
-                so this contains some more information about the internship.
-                Where it was etc.
+            <p>
+                {translator.get("pages.internship.description")}
             </p>
         </div>
 
         <a
             href="#intro"
             class="hidden lg:flex rounded-full justify-center items-center border border-primary-muted/30 py-4 border-dashed hover:bg-accent hover:text-background transition-colors"
-            >Read more below</a
+            >{translator.get("buttons.read-more-below")}</a
         >
     </div>
     <div class="space-y-5">
@@ -87,104 +94,60 @@
     <div class="space-y-12 lg:pt-32 order-2 lg:order-1">
         <section class="max-w-reading">
             <h3 class="text-accent text-3xl font-black">
-                What was asked of us?
+                {translator.get("pages.internship.section-1.title")}
             </h3>
             <p class="mt-3">
-                Elision provided us with a very blank and simple statement: "We
-                want a web application where our employees can challenge each
-                other in order to promomte some friendly competition". At first
-                we were taken aback because of how empty the problem statement
-                was. That was it. We had to come up with the way things had to
-                work, the content of the application and a good-looking design
-                (to the best of our ability). The one other required thing was
-                integration with Strava, so people could log their activities
-                without having to open the application.
+                {translator.get("pages.internship.section-1.text")}
             </p>
         </section>
         <section class="max-w-reading">
             <h3 class="text-accent text-3xl font-black">
-                How did we kick off?
+                {translator.get("pages.internship.section-2.title")}
             </h3>
             <p class="mt-3">
-                After we got the problem statement and got to know our mentor a
-                bit better, we started brainstorming some ideas. We had many,
-                but not all were great. In order to find out where our focus
-                should be we made a MOSCOW. Elision also asked us to document
-                everything from our MOSCOW to why we used certain technologies
-                in Confluence.
+                {translator.get("pages.internship.section-2.text")}
             </p>
             <p class="mt-2">
-                We also designed a schema for our database, which helped us in
-                further thinking about some of our features. After most of the
-                documenting was done we started looking online for some designs.
-                Much like thinking out the database model, designig helped us
-                think about features deeper. So to conclude, during the first ~2
-                weeks of the internship we were documenting our planning, chosen
-                technologies, datamodel, design, etc.
-            </p>
-        </section>
-        <section class="max-w-reading">
-            <h3 class="text-accent text-3xl font-black">How did we work?</h3>
-            <p class="mt-3">
-                After the research phase of 2 weeks we started developing. Both
-                of us acted as full-stack developers during the project so we
-                could work on features without having to wait on each other.
-                This also allowed both of us to have knowledge of both the
-                backend and frontend. As you may have seen at the top of the
-                page, our frontend was written in SvelteKit and our backend in
-                Java with Spring Boot.
-            </p>
-            <p class="mt-2">
-                During the internship we worked in sprints of 2 weeks. We had
-                standups every weekday and sprint demos at the end of each
-                sprint cycle. During this meeting 2 employees of Elision would
-                be present (our mentor + 1) and they would give us feedback,
-                sometimes steering us in a whole new direction. Our mentor is a
-                backend Java developer at Elision. He and some other employees
-                reviewed our backend code and suggested improvements if needed.
-                We also reviewed each other's code, though i gave more
-                improvements than i got since the other internee wasn't from
-                Application Development.
+                {translator.get("pages.internship.section-2.text-2")}
             </p>
         </section>
         <section class="max-w-reading">
             <h3 class="text-accent text-3xl font-black">
-                What was my role in all of this?
+                {translator.get("pages.internship.section-3.title")}
             </h3>
             <p class="mt-3">
-                From the start it was clear that i had the most technical
-                knowledge when it came to frontend and backend development.
-                Because of this i took more of a "lead" role in the team, even
-                though there wasnt really a leader. When it comes the
-                application itself, i created the following functionalities:
+                {translator.get("pages.internship.section-3.text")}
+            </p>
+            <p class="mt-2">
+                {translator.get("pages.internship.section-3.text-2")}
+            </p>
+        </section>
+        <section class="max-w-reading">
+            <h3 class="text-accent text-3xl font-black">
+                {translator.get("pages.internship.section-4.title")}
+            </h3>
+            <p class="mt-3">
+                {translator.get("pages.internship.section-4.text")}
             </p>
             <ul class="list-disc ml-5">
-                <li>OAuth login w/ Strava</li>
-                <li>Create challenge + create template</li>
-                <li>Challenge detail page</li>
-                <li>Challenge search page</li>
-                <li>
-                    Application design reworks (auth, profile, challenge,
-                    create)
-                </li>
-                <li>CI/CD pipelines + Azure hosting</li>
+                <li>{translator.get("pages.internship.section-4.item-1")}</li>
+                <li>{translator.get("pages.internship.section-4.item-2")}</li>
+                <li>{translator.get("pages.internship.section-4.item-3")}</li>
+                <li>{translator.get("pages.internship.section-4.item-4")}</li>
+                <li>{translator.get("pages.internship.section-4.item-5")}</li>
+                <li>{translator.get("pages.internship.section-4.item-6")}</li>
             </ul>
             <p class="mt-2">
-                So basically i created the basis for most of the things in the
-                project so my teammate could easily build his stuff. On top of
-                doing full-stack development i also did the design for the
-                application.
+                {translator.get("pages.internship.section-4.text-2")}
             </p>
         </section>
 
         <section class="max-w-reading">
-            <h3 class="text-accent text-3xl font-black">What did i learn?</h3>
+            <h3 class="text-accent text-3xl font-black">
+                {translator.get("pages.internship.section-5.title")}
+            </h3>
             <p class="mt-3">
-                During the internship i primarily learned how to behave and code
-                in a professional environment. I learned how and why we should
-                use sprints and worked with Jira to plan our sprints. Coding
-                wise i learned to keep testing in mind when designing the code
-                architecture.
+                {translator.get("pages.internship.section-5.text")}
             </p>
         </section>
     </div>
@@ -193,27 +156,35 @@
         class="lg:sticky lg:top-0 order-1 lg:order-2 lg:pt-32 mt-10 mb-5 flex flex-col self-start mx-auto gap-2"
     >
         <div class="bg-primary-muted/10 py-2 px-4 rounded-xl">
-            <h4 class="text-xl font-semibold text-accent">Company</h4>
-            <p>Elision, Hasselt</p>
+            <h4 class="text-xl font-semibold text-accent">
+                {translator.get("pages.internship.cards.1.title")}
+            </h4>
+            <p>{translator.get("pages.internship.cards.1.text")}</p>
         </div>
         <div class=" bg-primary-muted/10 py-2 px-4 rounded-xl">
-            <h4 class="text-xl font-semibold text-accent">Team composition</h4>
-            <p>Me - Full Stack Developer / Designer</p>
-            <p>x - Full Stack Developer</p>
+            <h4 class="text-xl font-semibold text-accent">
+                {translator.get("pages.internship.cards.2.title")}
+            </h4>
+            <p>{translator.get("pages.internship.cards.2.text-1")}</p>
+            <p>{translator.get("pages.internship.cards.2.text-2")}</p>
         </div>
         <div class=" bg-primary-muted/10 py-2 px-4 rounded-xl">
-            <h4 class="text-xl font-semibold text-accent">Project Link</h4>
+            <h4 class="text-xl font-semibold text-accent">
+                {translator.get("pages.internship.cards.3.title")}
+            </h4>
             <a
                 href="https://elicomp.vercel.app"
                 target="_blank"
                 class="hover:underline flex gap-1 items-center"
             >
-                <span>Click to open</span>
+                <span>{translator.get("pages.internship.cards.3.text")}</span>
                 <ArrowDownRightIcon class="-rotate-90 w-4 text-accent" />
             </a>
         </div>
         <div class=" bg-primary-muted/10 py-2 px-4 rounded-xl">
-            <h4 class="text-xl font-semibold text-accent">Resources</h4>
+            <h4 class="text-xl font-semibold text-accent">
+                {translator.get("pages.internship.cards.4.title")}
+            </h4>
             <p>Files</p>
         </div>
     </aside>

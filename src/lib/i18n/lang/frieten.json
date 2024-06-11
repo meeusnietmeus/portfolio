@@ -3,22 +3,21 @@
         "home": "Home",
         "about-me": "Over mij",
         "projects": "Projecten",
-        "connect": "Verbinden"
+        "connect": "Verbinding maken"
+    },
+    "buttons": {
+        "read-more-below": "Lees hieronder meer"
     },
     "pages": {
         "home": {
             "introduction": {
                 "title": "Wie ben ik?",
-                "intro": "Ik ben een 20-jarige Belg uit Retie die dol is op alles wat met ontwikkeling te maken heeft. Ik probeer mezelf uit te dagen in mijn projecten zodat ik nieuwe dingen kan leren of een nieuwe manier om dingen te doen. Ik consumeer vaak ontwikkelaarscontent om bij te blijven met wat nieuw is en wat er speelt. Als persoon ben ik een aspirant gameontwikkelaar, omdat dat is wat ik graag doe in mijn vrije tijd, als ik genoeg tijd heb. Gameontwikkeling omvat delen van alle ontwikkeling en creatieve dingen, hoewel het *zeer* tijdrovend is. In niet-gaming gerelateerde projecten, die de meeste van mijn projecten zijn, doe ik full stack ontwikkeling.",
+                "intro": "Ik ben een 20-jarige Belg uit Retie die houdt van alles wat met ontwikkeling te maken heeft. Ik probeer mezelf uit te dagen in mijn projecten zodat ik nieuwe dingen kan leren of een nieuwe manier van dingen doen kan ontdekken. Ik consumeer vaak ontwikkelaarscontent om bij te houden wat er nieuw is en wat er speelt. Als persoon ben ik een aspirant game-ontwikkelaar, omdat dat is wat ik graag doe in mijn vrije tijd, mits ik voldoende tijd heb. Game-ontwikkeling omvat delen van alle ontwikkeling en creatieve dingen, hoewel het *erg* tijdrovend is. In niet-gaming gerelateerde projecten, die de meeste van mijn projecten zijn, doe ik full-stack ontwikkeling.",
                 "technologies": {
-                    "description": "Als full stack ontwikkelaar heb ik met veel talen, frameworks en technologieën gewerkt. De technologieën waar ik momenteel het meest bedreven in ben, staan hieronder vermeld. Ik heb ook wat zeer basishosting gedaan met Azure en heb meerdere CI/CD-pijplijnen opgezet. Voor voorbeelden waar ik deze technologieën gebruik, kun je naar mijn projecten verwijzen.",
-                    "frontend": "Frontend",
-                    "backend": "Backend",
-                    "technologies": "Technologieën",
-                    "learning": "Aan het leren"
+                    "description": "Als full-stack ontwikkelaar heb ik met veel talen, frameworks en technologieën gewerkt. De technologieën waarin ik momenteel het meest bedreven ben, staan hieronder vermeld. Ik heb ook wat zeer basis backend-hosting gedaan met Azure en heb meerdere CI/CD-pijplijnen opgezet. Voor voorbeelden waar ik deze technologieën gebruik, kun je naar mijn projecten verwijzen."
                 },
-                "hardskills": "Bij het ontwikkelen ben ik te vaak een perfectionist. Wat ik hiermee bedoel, is dat ik manieren zie waarop iets beter kan worden gedaan en het dan beter maak. Dit kan een probleem worden, aangezien er altijd manieren zullen zijn om iets te verbeteren. Bij het werken met technologieën, en als ik de tijd heb, wil ik weten waar ik eigenlijk mee werk. Ik wil het niet alleen gebruiken, maar het ook begrijpen.",
-                "softskills": "Gedurende schoolprojecten en mijn stage heb ik veel ervaring opgedaan met teamwork. In sommige van die projecten heb ik de \"lead\" rol op me genomen omdat ik weet wat ik doe. Ik werk graag in teamprojecten omdat ik niet alleen technisch uitgedaagd word, maar we nu ook een manier moeten vinden om dingen voor iedereen te laten werken. Hoewel ik graag in teamverband werk, voel ik me het meest productief wanneer ik een tijdje op mezelf kan werken."
+                "hardskills": "Bij het ontwikkelen ben ik te vaak een perfectionist. Wat ik hiermee bedoel is dat ik manieren opmerk waarop iets beter kan worden gedaan en het dan beter maak. Dit kan een probleem worden, omdat er altijd manieren zullen zijn om iets te verbeteren. Bij het werken met technologieën, en mits de tijd, wil ik weten waar ik eigenlijk mee werk. Ik wil het niet alleen gebruiken, maar het ook begrijpen.",
+                "softskills": "Door schoolprojecten en mijn stage heb ik veel teamwerkervaring opgedaan. In sommige van die projecten heb ik de \"lead\"-rol op me genomen, omdat ik wist wat ik deed. Ik werk graag in teamprojecten omdat ik dan niet alleen technisch uitgedaagd word, maar ook moeten we een manier vinden om dingen voor iedereen te laten werken. Hoewel ik graag in teamverband werk, voel ik dat ik het meest productief ben als ik een tijdje op mezelf ben."
             },
             "skill-set": {
                 "title": "Mijn vaardigheden"
@@ -29,15 +28,68 @@
                 "filter_2": "projecten.",
                 "internship": {
                     "title": "Stage",
-                    "introduction": "Een webapplicatie waarmee Elision-medewerkers kunnen strijden in vriendschappelijke competities."
+                    "introduction": "Een webapplicatie waarmee Elision-medewerkers kunnen concurreren in vriendschappelijke competities."
                 },
                 "project-4": {
                     "title": "Project 4.0",
-                    "introduction": "School groepsproject rond elektrische oplaadwachtrijen."
+                    "introduction": "Schoolgroepsproject over elektrische laadwachtrijen."
                 },
                 "angular": {
                     "title": "Angular uitdaging",
-                    "introduction": "Strijd tegen andere groepen voor de beste reisplanner."
+                    "introduction": "Concurreer tegen andere groepen voor de beste reisplanner."
+                }
+            }
+        },
+        "internship": {
+            "title": "Stage",
+            "group-members": "team (2)",
+            "date": "Jan 2024 - Mei 2024",
+            "description": "Ik liep stage bij Elision, een bedrijf dat gespecialiseerd is in SAP CX. Onze taak was het creëren van een applicatie die werknemers zou aanmoedigen om deel te nemen aan vriendelijke competitie. We ontwierpen de functies vanaf nul, maar kregen begeleiding wanneer dat nodig was. Onze mentor, die optrad als een ondersteunende klant met specifieke eisen, gaf waardevolle inzichten. Over het geheel genomen bood de stage een uitstekende kijk op wat een echte baan in dit vakgebied inhoudt, van het gebruik van Jira tot het schrijven van testbare code.",
+            "section-1": {
+                "title": "Wat werd er van ons gevraagd?",
+                "text": "Elision gaf ons een zeer vage en eenvoudige opdracht: \"We willen een webapplicatie waar onze medewerkers elkaar kunnen uitdagen om vriendschappelijke competitie te bevorderen\". In het begin waren we verrast door hoe leeg de probleemstelling was. Dat was alles. We moesten zelf bedenken hoe alles moest werken, de inhoud van de applicatie en een goed uitziend ontwerp (voor zover mogelijk). Het enige andere vereiste was integratie met Strava, zodat mensen hun activiteiten konden loggen zonder de applicatie te openen."
+            },
+            "section-2": {
+                "title": "Hoe zijn we begonnen?",
+                "text": "Nadat we de probleemstelling hadden gekregen en onze mentor wat beter hadden leren kennen, begonnen we ideeën te brainstormen. We hadden er veel, maar niet allemaal waren geweldig. Om erachter te komen waar onze focus moest liggen, maakten we een MOSCOW. Elision vroeg ons ook om alles te documenteren, van onze MOSCOW tot waarom we bepaalde technologieën gebruikten in Confluence.",
+                "text-2": "We hebben ook een schema voor onze database ontworpen, wat ons hielp bij het verder nadenken over sommige functies. Nadat het meeste documentatiewerk was gedaan, begonnen we online naar ontwerpen te zoeken. Net als bij het bedenken van het databasemodel, hielp ontwerpen ons om dieper na te denken over functies. Dus, om samen te vatten, gedurende de eerste ~2 weken van de stage waren we bezig met het documenteren van onze planning, gekozen technologieën, datamodel, ontwerp, enz."
+            },
+            "section-3": {
+                "title": "Hoe werkten we?",
+                "text": "Na de onderzoeksfase van 2 weken begonnen we met ontwikkelen. We fungeerden beiden als full-stack ontwikkelaars tijdens het project, zodat we aan functies konden werken zonder op elkaar te hoeven wachten. Dit stelde ons ook in staat om kennis te hebben van zowel de backend als de frontend. Zoals je misschien bovenaan de pagina hebt gezien, was onze frontend geschreven in SvelteKit en onze backend in Java met Spring Boot.",
+                "text-2": "Tijdens de stage werkten we in sprints van 2 weken. We hadden elke werkdag stand-ups en sprintdemo's aan het einde van elke sprintcyclus. Tijdens deze vergadering waren 2 medewerkers van Elision aanwezig (onze mentor + 1) en zij gaven ons feedback, soms stuurden ze ons in een heel nieuwe richting. Onze mentor is een backend Java-ontwikkelaar bij Elision. Hij en enkele andere medewerkers beoordeelden onze backend-code en suggereerden verbeteringen indien nodig. We beoordeelden ook elkaars code, hoewel ik meer verbeteringen gaf dan ik kreeg, aangezien de andere stagiair niet van Application Development kwam."
+            },
+            "section-4": {
+                "title": "Wat was mijn rol in dit alles?",
+                "text": "Vanaf het begin was het duidelijk dat ik de meeste technische kennis had als het ging om frontend- en backend-ontwikkeling. Hierdoor nam ik meer een \"lead\"-rol op me in het team, ook al was er niet echt een leider. Wat betreft de applicatie zelf, ik heb de volgende functionaliteiten gecreëerd:",
+                "item-1": "OAuth login met Strava",
+                "item-2": "Uitdaging aanmaken + sjabloon maken",
+                "item-3": "Uitdagingsdetailpagina",
+                "item-4": "Uitdagingszoekpagina",
+                "item-5": "Applicatie-ontwerp herwerken (authenticatie, profiel, uitdaging, aanmaken)",
+                "item-6": "CI/CD-pijplijnen + Azure-hosting",
+                "text-2": "Dus eigenlijk heb ik de basis gelegd voor de meeste dingen in het project, zodat mijn teamgenoot zijn dingen gemakkelijk kon bouwen. Naast full-stack ontwikkeling deed ik ook het ontwerp voor de applicatie."
+            },
+            "section-5": {
+                "title": "Wat heb ik geleerd?",
+                "text": "Tijdens de stage heb ik vooral geleerd hoe ik me moet gedragen en coderen in een professionele omgeving. Ik heb geleerd hoe en waarom we sprints moeten gebruiken en werkte met Jira om onze sprints te plannen. Op het gebied van coderen heb ik geleerd om testen in gedachten te houden bij het ontwerpen van de code-architectuur."
+            },
+            "cards": {
+                "1": {
+                    "title": "Bedrijf",
+                    "text": "Elision, Hasselt"
+                },
+                "2": {
+                    "title": "Team samenstelling",
+                    "text-1": "Ik - Full Stack Ontwikkelaar / Ontwerper",
+                    "text-2": "x - Full Stack Ontwikkelaar"
+                },
+                "3": {
+                    "title": "Project Link",
+                    "text": "Klik om te openen"
+                },
+                "4": {
+                    "title": "Bronnen"
                 }
             }
         }

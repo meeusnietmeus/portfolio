@@ -1,4 +1,5 @@
 <script lang="ts">
+    import MailIcon from "$lib/icons/mail-icon.svelte";
     import Github from "$lib/icons/socials/github.svelte";
     import Linkedin from "$lib/icons/socials/linkedin.svelte";
 </script>
@@ -13,6 +14,9 @@
             target="_blank"
         >
             <Linkedin class="w-8 h-8 fill-background" />
+        </a>
+        <a href="mailto:seppem2@gmail.com" target="_blank">
+            <MailIcon class="w-8 h-8 stroke-background" />
         </a>
         <a href="https://github.com/meeusnietmeus" target="_blank">
             <Github class="w-8 h-8 fill-background" />

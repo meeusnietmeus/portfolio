@@ -5,20 +5,19 @@
         "projects": "Projects",
         "connect": "Connect"
     },
+    "buttons": {
+        "read-more-below": "Read more below"
+    },
     "pages": {
         "home": {
             "introduction": {
-                "title": "Who am i?",
-                "intro": "I'm a 20 year old Belgian from Retie who loves anything related to development. I try to challenge myself in my projects so i can learn new stuff or a new way of doing stuff. I consume developer content often to keep track of what's new and what's out there. As a person i am an aspiring game developer, as that's what i like to do in my free time, given enough time. Game development incorporates parts from all of development and creative stuff, though it is *very* time consuming. In non-gaming related projects, which are most of mine, i do full stack development.",
+                "title": "Who am I?",
+                "intro": "I'm a 20 year old Belgian from Retie who loves anything related to development. I try to challenge myself in my projects so I can learn new stuff or a new way of doing stuff. I consume developer content often to keep track of what's new and what's out there. As a person I am an aspiring game developer, as that's what I like to do in my free time, given enough time. Game development incorporates parts from all of development and creative stuff, though it is *very* time consuming. In non-gaming related projects, which are most of mine, I do full stack development.",
                 "technologies": {
-                    "description": "As full stack developer i've worked with plenty of languages, frameworks and technologies. The ones i'm currently most proficient in are listed below. I've also done some very basic backend hosting using Azure and have set up multiple CI/CD pipelines. For examples where i use these technologies, you can refer to my projects.",
-                    "frontend": "Frontend",
-                    "backend": "Backend",
-                    "technologies": "Technologies",
-                    "learning": "Learning"
+                    "description": "As full stack developer I've worked with plenty of languages, frameworks and technologies. The ones I'm currently most proficient in are listed below. I've also done some very basic backend hosting using Azure and have set up multiple CI/CD pipelines. For examples where I use these technologies, you can refer to my projects."
                 },
-                "hardskills": "When developing, I am a perfectionist too often. What i mean by this is that i notice ways something could be done better and then will make it better. This can grow to be a problem since there will always be ways to improve something. When working with technologies, and given the time, I want to know what I am actually working with. I don't just want to use it, but also understand it.",
-                "softskills": "Throughout school projects and my insternship i've conjured up plenty of team work experience. In some of those projects i've taken the \"lead\" role since I know what I'm doing. I like working in team projects since I don't only get technically challenged anymore, but now we also have to figure out a way to make things work for everyone. Even though i do like team work, i feel like I'm most productive when left to my own for a bit."
+                "hardskills": "When developing, I am a perfectionist too often. What I mean by this is that I notice ways something could be done better and then will make it better. This can grow to be a problem since there will always be ways to improve something. When working with technologies, and given the time, I want to know what I am actually working with. I don't just want to use it, but also understand it.",
+                "softskills": "Throughout school projects and my insternship I've conjured up plenty of team work experience. In some of those projects I've taken the \"lead\" role since I know what I'm doing. I like working in team projects since I don't only get technically challenged anymore, but now we also have to figure out a way to make things work for everyone. Even though I do like team work, I feel like I'm most productive when left to my own for a bit."
             },
             "skill-set": {
                 "title": "My skill set"
@@ -38,6 +37,59 @@
                 "angular": {
                     "title": "Angular challenge",
                     "introduction": "Compete against other groups for the best tripplanner."
+                }
+            }
+        },
+        "internship": {
+            "title": "Internship",
+            "group-members": "team (2)",
+            "date": "Jan 2024 - May 2024",
+            "description": "I interned at Elision, a company specializing in SAP CX. Our task was to create an application that would encourage employees to engage in friendly competition. We designed the features from scratch but received guidance when needed. Our mentor, acting as a supportive client with specific requirements, provided valuable insights. Overall, the internship offered an excellent preview of what a real job in this field entails, covering everything from using Jira to writing testable code.",
+            "section-1": {
+                "title": "What was asked of us?",
+                "text": "Elision gave us a very basic project brief: \"We want a web application where our employees can challenge each other to promote friendly competition.\" Initially, we were surprised by how open-ended the statement was. We had to figure out the functionality, content, and design of the application from scratch. The only additional requirement was integrating with Strava, allowing users to log their activities without opening the application."
+            },
+            "section-2": {
+                "title": "How did we kick off?",
+                "text": "After receiving the problem statement and getting to know our mentor better, we began brainstorming ideas. We had many, though not all were great. To determine our focus, we created a MOSCOW analysis. Elision also asked us to document everything, from our MOSCOW analysis to our reasons for choosing certain technologies, in Confluence.",
+                "text-2": "We designed a database schema, which helped us further refine some of our features. Once most of the documentation was completed, we searched online for design inspirations. Just as with the database model, the design process helped us think more deeply about our features. In summary, during the first two weeks of the internship, we focused on documenting our planning, chosen technologies, data model, design, and more."
+            },
+            "section-3": {
+                "title": "How did we work?",
+                "text": "After the two-week research phase, we began development. Both of us worked as full-stack developers, enabling us to implement features independently and gain knowledge of both the backend and frontend. Our frontend was developed using SvelteKit, while the backend was built with Java and Spring Boot.",
+                "text-2": "We worked in two-week sprints throughout the internship. We held daily standups and sprint demos at the end of each sprint cycle. During these meetings, two employees from Elision (our mentor and another) provided feedback, sometimes redirecting our focus. Our mentor, a backend Java developer at Elision, along with other employees, reviewed our backend code and suggested improvements. We also conducted peer code reviews, though I provided more feedback since the other intern wasn't from an Application Development background."
+            },
+            "section-4": {
+                "title": "What was my role in all of this?",
+                "text": "From the start it was clear that I had the most technical knowledge when it came to frontend and backend development. Because of this I took more of a \"lead\" role in the team, even though there wasnt really a leader. When it comes the application itself, I created the following functionalities:",
+                "item-1": "OAuth login w/ Strava",
+                "item-2": "Create challenge + create template",
+                "item-3": "Challenge detail page",
+                "item-4": "Challenge search page",
+                "item-5": "Application design reworks (auth, profile, challenge, create)",
+                "item-6": "CI/CD pipelines + Azure hosting",
+                "text-2": "So basically I created the basis for most of the things in the project so my teammate could easily build his stuff. On top of doing full-stack development I also did the design for the application."
+            },
+            "section-5": {
+                "title": "What did I learn?",
+                "text": "During the internship, I primarily learned how to conduct myself and code in a professional environment. I understood the importance of using sprints and how to plan them with Jira. From a coding perspective, I learned to keep testing in mind when designing the code architecture."
+            },
+            "cards": {
+                "1": {
+                    "title": "Company",
+                    "text": "Elision, Hasselt"
+                },
+                "2": {
+                    "title": "Team composition",
+                    "text-1": "Me - Full Stack Developer / Designer",
+                    "text-2": "x - Full Stack Developer"
+                },
+                "3": {
+                    "title": "Project Link",
+                    "text": "Click to open"
+                },
+                "4": {
+                    "title": "Resources"
                 }
             }
         }
