@@ -96,6 +96,59 @@
                     "reflection": "Reflectie"
                 }
             }
+        },
+        "project-4": {
+            "title": "Project 4.0",
+            "group-members": "team (5)",
+            "date": "Eerste semester 2023-2024",
+            "description": "Tijdens het eerste semester van het schooljaar 2024 hadden we een vak genaamd Project 4.0. In dit vak werden we opgesplitst in groepen met minstens één student van elke studierichting. We kregen een probleemstelling van een bedrijf en moesten een applicatie maken om het probleem op te lossen. Het doel van dit vak was om ons een idee te geven van hoe projectstromen in de echte wereld kunnen verlopen.",
+            "section-1": {
+                "title": "Wat werd er van ons gevraagd?",
+                "text": "We kregen onze probleemstelling van Elision. We moesten een applicatie maken waarmee de medewerkers van Elision oplaadplaatsen voor hun elektrische voertuigen konden reserveren. Wij hebben onze applicatie volledig gemaakt in Next.js 14 met app directory. We moesten beginnen met een projectplan en hadden meerdere vergaderingen met de mensen van Elision om onze ideeën te presenteren en feedback te krijgen."
+            },
+            "section-2": {
+                "title": "Wat was mijn rol in dit alles?",
+                "text": "Tijdens het project waren ik en de Cloud-student degenen die het meeste werk deden. We zorgden ervoor dat de documenten consistent en goed geschreven waren, en werkten lange uren omdat de anderen er niet zoveel om gaven. Ik was een Full Stack Developer voor dit project en heb zeker mijn steentje bijgedragen. Ik maakte het ontwerp en 80% van de functionaliteiten. Ik kon ook de Cloud-student helpen met hostingproblemen, omdat we zoveel samenwerkten."
+            },
+            "cards": {
+                "1": {
+                    "title": "Locatie",
+                    "text": "Thomas More, Geel"
+                },
+                "2": {
+                    "title": "Team samenstelling",
+                    "text-1": "Ik - Full Stack Developer / Designer",
+                    "text-2": "x - Full Stack Developer",
+                    "text-3": "x - IoT",
+                    "text-4": "x - Datavisualisatie",
+                    "text-5": "x - Cloud en Security"
+                }
+            }
+        },
+        "angular": {
+            "title": "Angular uitdaging",
+            "group-members": "team (5)",
+            "date": "Eerste semester 2023-2024",
+            "description": "Voor het vak Angular kregen we de opdracht om een reisplannerapplicatie te maken in een groepsproject. We moesten ideeën vanaf nul bedenken en presenteren. De applicatie moest ook worden gehost.",
+            "section-1": {
+                "title": "Wat werd er van ons gevraagd?",
+                "text": "We moesten, zoals eerder gezegd, een reisplanner in Angular maken. We moesten een externe API integreren en kozen voor iets dat de gebruiker informatie gaf over omringende activiteiten op het moment dat ze van plan waren naar hun bestemming te gaan. In onze applicatie kunnen gebruikers een reis creëren. Een reis kan meerdere bestemmingen bevatten en die bestemmingen kunnen verblijfplaatsen en activiteiten bevatten. Een reis kan meerdere leden hebben die de inhoud van de reis kunnen bekijken of bewerken. Nadat elk team hun versie van het project had gepresenteerd, werd aangekondigd dat wij de beste van de groep waren."
+            },
+            "section-2": {
+                "title": "Wat was mijn rol in dit alles?",
+                "text": "Als een van de technisch meest onderlegde personen in het team hielp ik anderen terwijl ik zelf aan het ontwikkelen was. Ik deed het meeste van de logica voor het creëren van de hele reis, zoals het toevoegen van verblijfplaatsen, activiteiten, het toevoegen van achtergrondafbeeldingen, enz."
+            },
+            "cards": {
+                "1": {
+                    "title": "Locatie",
+                    "text": "Thomas More, Geel"
+                },
+                "2": {
+                    "title": "Team samenstelling",
+                    "text-1": "Alle (5) full-stack Developers"
+                }
+            }
         }
+
     }
 }
