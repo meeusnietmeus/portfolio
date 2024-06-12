@@ -1,6 +1,5 @@
 <script lang="ts">
     import { createTranslator } from "$lib/i18n/i18n";
-    import MailIcon from "$lib/icons/mail-icon.svelte";
     import MenuIcon from "$lib/icons/menu-icon.svelte";
     import Linkedin from "$lib/icons/socials/linkedin.svelte";
 

@@ -8,6 +8,6 @@
     const { children }: ComponentProps = $props();
 </script>
 
-<div class="bg-primary-muted/10 py-1 px-3 rounded-full flex gap-2">
+<div class="bg-primary-muted/10 py-1 px-3 rounded-full flex gap-2 text-nowrap">
     {@render children()}
 </div>

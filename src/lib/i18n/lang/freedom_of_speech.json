@@ -96,6 +96,34 @@
                     "reflection": "Reflection"
                 }
             }
+        },
+        "project-4": {
+            "title": "Project 4.0",
+            "group-members": "team (5)",
+            "date": "Eerste semester 2023-2024",
+            "description": "During the first semester of the school year 2024 we had a course called Project 4.0. In this course we were split up into groups containing at least one student of each major. We got a problem statement from a company and had to make an application to solve said problem. The goal of this course was to give us a glimpse into how the flows projects could go in the real world.",
+            "section-1": {
+                "title": "What was asked of us?",
+                "text": "We got our problem statement from Elision. We had to make an application the employees of Elision could use to reserve charging spots for their electric vehicles. We made ours fully in Next.js 14 with app directory. We had to start with a project plan and had multiple meetings with the people of Elision to present our ideas and get feedback."
+            },
+            "section-2": {
+                "title": "What was my role in all of this?",
+                "text": "During the project I and the Cloud student were the ones who did the most work. We made sure the documents were conistent and well written, we worked late hours because the others just didn't care all too much. I was a Full Stack Develpoer for this project and very much so pulled my weight. I made the design and 80% of the functionalities. I could also help the cloud student with hosting problems, since we were working together so much."
+            },
+            "cards": {
+                "1": {
+                    "title": "Location",
+                    "text": "Thomas More, Geel"
+                },
+                "2": {
+                    "title": "Team composition",
+                    "text-1": "Me - Full Stack Developer / Designer",
+                    "text-2": "x - Full Stack Developer",
+                    "text-3": "x - IoT",
+                    "text-4": "x - Data visualization",
+                    "text-5": "x - Cloud and Security"
+                }
+            }
         }
     }
 }

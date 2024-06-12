@@ -33,7 +33,7 @@
             <h2 class="text-accent text-5xl font-black">
                 {translator.get("pages.internship.title")}
             </h2>
-            <div class="flex gap-4">
+            <div class="flex gap-4 flex-wrap">
                 <Pill>
                     <UsersIcon class="w-4" />
                     <p>{translator.get("pages.internship.group-members")}</p>
