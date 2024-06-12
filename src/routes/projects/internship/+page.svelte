@@ -11,6 +11,10 @@
     import ArrowDownRightIcon from "$lib/icons/arrow-down-right-icon.svelte";
     import type { LayoutData } from "../../$types";
     import { createTranslator } from "$lib/i18n/i18n";
+    import projectPlanPDF from "$lib/pfds/project_plan.pdf";
+    import technicalPDF from "$lib/pfds/technical.pdf";
+    import realizationsPDF from "$lib/pfds/realizations.pdf";
+    import reflectionPDF from "$lib/pfds/reflectie.pdf";
 
     type ComponentProps = {
         data: LayoutData;
@@ -181,11 +185,58 @@
                 <ArrowDownRightIcon class="-rotate-90 w-4 text-accent" />
             </a>
         </div>
-        <div class=" bg-primary-muted/10 py-2 px-4 rounded-xl">
+        <div class=" bg-primary-muted/10 py-2 px-4 rounded-xl flex flex-col">
             <h4 class="text-xl font-semibold text-accent">
                 {translator.get("pages.internship.cards.4.title")}
             </h4>
-            <p>Files</p>
+            <a
+                href={projectPlanPDF}
+                target="_blank"
+                class="hover:underline flex gap-1 items-center"
+            >
+                <span
+                    >{translator.get(
+                        "pages.internship.cards.4.project-plan",
+                    )}</span
+                >
+                <ArrowDownRightIcon class="-rotate-90 w-4 text-accent" />
+            </a>
+            <a
+                href={technicalPDF}
+                target="_blank"
+                class="hover:underline flex gap-1 items-center"
+            >
+                <span
+                    >{translator.get(
+                        "pages.internship.cards.4.technical",
+                    )}</span
+                >
+                <ArrowDownRightIcon class="-rotate-90 w-4 text-accent" />
+            </a>
+            <a
+                href={realizationsPDF}
+                target="_blank"
+                class="hover:underline flex gap-1 items-center"
+            >
+                <span
+                    >{translator.get(
+                        "pages.internship.cards.4.realizations",
+                    )}</span
+                >
+                <ArrowDownRightIcon class="-rotate-90 w-4 text-accent" />
+            </a>
+            <a
+                href={reflectionPDF}
+                target="_blank"
+                class="hover:underline flex gap-1 items-center"
+            >
+                <span
+                    >{translator.get(
+                        "pages.internship.cards.4.reflection",
+                    )}</span
+                >
+                <ArrowDownRightIcon class="-rotate-90 w-4 text-accent" />
+            </a>
         </div>
     </aside>
 </article>

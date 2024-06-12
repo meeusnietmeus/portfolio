@@ -1,7 +1,9 @@
 <script lang="ts">
+    import FileAttachmentIcon from "$lib/icons/file-attachment-icon.svelte";
     import MailIcon from "$lib/icons/mail-icon.svelte";
     import Github from "$lib/icons/socials/github.svelte";
     import Linkedin from "$lib/icons/socials/linkedin.svelte";
+    import resumePDF from "$lib/pfds/resume_seppe_meeus.pdf";
 </script>
 
 <footer
@@ -17,6 +19,9 @@
         </a>
         <a href="mailto:seppem2@gmail.com" target="_blank">
             <MailIcon class="w-8 h-8 stroke-background" />
+        </a>
+        <a href={resumePDF} target="_blank">
+            <FileAttachmentIcon class="w-8 h-8 stroke-background" />
         </a>
         <a href="https://github.com/meeusnietmeus" target="_blank">
             <Github class="w-8 h-8 fill-background" />

@@ -89,7 +89,11 @@
                     "text": "Click to open"
                 },
                 "4": {
-                    "title": "Resources"
+                    "title": "Resources (exported from Confluence)",
+                    "project-plan": "Project plan",
+                    "technical": "Technical",
+                    "realizations": "Realizations",
+                    "reflection": "Reflection"
                 }
             }
         }

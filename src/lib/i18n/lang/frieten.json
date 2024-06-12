@@ -89,7 +89,11 @@
                     "text": "Klik om te openen"
                 },
                 "4": {
-                    "title": "Bronnen"
+                    "title": "Bronnen (geexporteerd van Confluence)",
+                    "project-plan": "Project plan",
+                    "technical": "Technisch",
+                    "realizations": "Realisaties",
+                    "reflection": "Reflectie"
                 }
             }
         }
