@@ -124,6 +124,30 @@
                     "text-5": "x - Cloud and Security"
                 }
             }
+        },
+        "angular": {
+            "title": "Angular challenge",
+            "group-members": "team (5)",
+            "date": "Eerste semester 2023-2024",
+            "description": "For the course of Angular we got the opdracht to create a trip planner application in a group project. We had to come up ideas from scratch and present them. The application also had to be hosted.",
+            "section-1": {
+                "title": "What was asked of us?",
+                "text": "We had to create a trip planner in Angular, as said earlier. We had to integrate an external API and we chose for something that gave the user information about surrounding activities at the time they we planning on going to their destination. In our application users can create a trip. A trip can contain multiple destinations and those destinations can contain places to stay and activities. A trip can have multiple members on it who can view or edit the contents of the trip. After every team presented their version of the project, it was announced we were the best out of the bunch."
+            },
+            "section-2": {
+                "title": "What was my role in all of this?",
+                "text": "As one of the technically most knowledgeable people in the team, I was helping others whilst developing myself. I did most of the logic for creating the whole trip like adding places to stay, activities, adding background image, ..."
+            },
+            "cards": {
+                "1": {
+                    "title": "Location",
+                    "text": "Thomas More, Geel"
+                },
+                "2": {
+                    "title": "Team composition",
+                    "text-1": "All (5) full-stack Developers"
+                }
+            }
         }
     }
 }
